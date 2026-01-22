@@ -40,11 +40,18 @@ architecture-diagram.png
 
 ## Repository Structure
 
-application-code/
-├── web-tier/        React frontend (Web Tier)
-├── app-tier/        Node.js backend (Application Tier)
-├── nginx.conf       Nginx configuration for AWS EC2
-├── nginx-without-ssl.conf
+aws-3tier-web-application/
+│
+├── application-code/
+│   ├── web-tier/                 # React frontend (Web Tier)
+│   ├── app-tier/                 # Node.js backend (Application Tier)
+│   ├── nginx.conf                # Nginx configuration for AWS EC2
+│   └── nginx-without-ssl.conf    # Nginx config without SSL
+│
+├── architecture-diagram.png      # AWS 3-tier architecture diagram
+├── README.md
+└── .gitignore
+
 
 ---
 
