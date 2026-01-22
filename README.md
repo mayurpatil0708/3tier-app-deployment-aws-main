@@ -34,7 +34,8 @@ Database Tier
 
 The diagram below represents the intended AWS production deployment:
 
-architecture-diagram.png
+![Architecture Diagram](architecture.png)
+
 
 ---
 
